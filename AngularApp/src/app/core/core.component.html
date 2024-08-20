@@ -1,2 +1,13 @@
-<p>core works!</p>
-mk;jo
+<div class="row">
+    <div class="col-md-12">
+      <p> add new server  or blue print </p>
+      <label>server name </label>
+      <input type="text" class="form-control"  [(ngModel)]="newServerName"> 
+      <br> 
+      <label>server Content  </label>
+      <input type="text" class="form-control"  [(ngModel)]="newServerContent"> 
+       <br >
+       <button class="btn btn-primary" (click)="onAddServer()"> add server </button>    &nbsp;  &nbsp;  &nbsp; 
+          <button class="btn btn-primary" (click)="onAddbluePrintServer()"> add blue print server  </button>
+
+    </div></div>
